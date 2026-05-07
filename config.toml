@@ -1,0 +1,52 @@
+baseurl = "https://learn-scala.polyvariant.org/"
+title = "Learn Scala"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Polyvariant"
+  info = "Reference learning material for Scala"
+  description = "Reference learning material for Scala"
+  keywords = "scala,fp,functional-programming,learning"
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  enableTwemoji = true
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/polyvariant/learn-scala"
+
+# Menu links
+[[menu.main]]
+  name = "Trainings & books"
+  weight = 1
+  url = "/general"
+[[menu.main]]
+  name = "Blogs & channels"
+  weight = 2
+  url = "/blogs"
+[[menu.main]]
+  name = "Language aspects"
+  weight = 3
+  url = "/language-aspects"
+[[menu.main]]
+  name = "Libraries"
+  weight = 4
+  url = "/libraries"
